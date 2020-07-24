@@ -1,5 +1,6 @@
 package com.dataservice.dataService.entities;
 
+
 import java.util.Date;
 
 public class MonitorData {

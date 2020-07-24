@@ -5,7 +5,7 @@ import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
 @Table(value = "directory_events")
-public class DirectoryEvents {
+public class DirectoryEvent {
 
     @PrimaryKey
     private EventKey eventKey;
